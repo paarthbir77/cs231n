@@ -1,0 +1,1 @@
+Use the zip file in test/Dog to get test images for Dogs.
