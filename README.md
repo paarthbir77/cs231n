@@ -1,2 +1,2 @@
 # cs231n
-Code inspired by CS231n assignments.
+Code inspired by CS231n assignment 1.
