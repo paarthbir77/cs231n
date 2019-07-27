@@ -1,0 +1,1 @@
+Use the zip file in test/Cat folder for cat test images.
