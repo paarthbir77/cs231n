@@ -236,6 +236,7 @@ for i in range(1, 50):
     img_pred = image.img_to_array(img_pred)
     img_pred = img_pred / 255
     img_pred = np.reshape(img_pred, (1, 3 * img_pred.shape[0] * img_pred.shape[1]))
+    img_pred-=mean_image
     img_pred = np.hstack([img_pred, np.ones((img_pred.shape[0], 1))])
     res = classifier.predict(img_pred)
     if res[0] == 0:
